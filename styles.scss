@@ -1,0 +1,49 @@
+
+$primary: rgb(255, 255, 255);
+
+
+.container{
+    .row{
+    margin: 0 auto;
+    padding: 100px;
+    height: 980px;
+    }
+   
+    h2{
+    margin: 265px 16px 8px 55px    ;
+    width: 13rem;
+    height: 5rem;
+    color: $primary;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-size-adjust: 100px
+    ;
+    }
+
+  
+    .card{
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        border: none;
+        }
+
+    img{
+        
+        margin-left: 20px;
+        border: solid;
+        width: 250px;
+        height: 400px;
+        opacity: 90%;
+        justify-content: center;
+        background-position: center;
+    
+    }
+
+  @media (min-width:768px) {
+        &_container{
+            justify-content: flex-end;
+        }
+  }
+}
