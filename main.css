@@ -1,0 +1,34 @@
+.section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative
+}
+
+.imagen img {
+    width: 100%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 25rem;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+    padding: 3rem 0 0 3rem;
+}
+
+.texto h2 {
+font-size: 2.5rem;
+}
