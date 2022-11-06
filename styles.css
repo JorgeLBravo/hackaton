@@ -352,9 +352,24 @@ border: solid;
   justify-content: space-between;
 }
 
+@media (max-width: 767px) {
+  .flex-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .flex-footer3 {
   display: flex;
   gap: 1rem;
+}
+
+@media (max-width: 767px) {
+  .flex-footer3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .iconos {
@@ -367,6 +382,14 @@ border: solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .flex-final{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .reserved {
@@ -382,4 +405,3 @@ border: solid;
   justify-content: flex-end;
 }
 }
-
