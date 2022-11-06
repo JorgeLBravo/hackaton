@@ -138,6 +138,20 @@
   margin-bottom: 10rem;
 }
 
+@media only screen and (max-width: 810px){
+  .section {
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .section {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
 .container-section {
   max-width: 1500px;
   margin-left: auto;
@@ -193,15 +207,35 @@
   }
 }
 
+@media only screen and (max-width: 576px){
+  .texto {
+    display: flex;
+    padding-left: 0;
+  }
+}
+
 .texto h2 {
   font-size: 3.5rem;
   font-weight: 200;
   margin-bottom: 1rem;
   padding-right: 7rem;
 }
+
+@media only screen and (max-width: 576px){
+  .texto h2 {
+    padding-right: 0;
+  }
+}
+
 .texto p{
   padding-right: 7rem;
   line-height: 25px;
+}
+
+@media only screen and (max-width: 576px){
+  .texto p {
+    padding-right: 0;
+  }
 }
 
 @media only screen and (max-width: 921px){
