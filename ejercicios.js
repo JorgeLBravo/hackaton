@@ -3,7 +3,7 @@
 //Ejercicio 1
 function callMenu(){
     let nro_ejercicio= parseInt(
-        prompt("Ingrese el numero de ejercicio que quiere ejecutar: \r\n 1.Calcular si el año es biciesto. \r\n 2.Calcular numeros.")
+        prompt("Ingrese el numero de ejercicio que quiere ejecutar: \r\n 1.Calcular si el año es biciesto. \r\n 2.Calcular numeros. \r\n 3. Precio total del pedido.")
     );
     if(isNaN(nro_ejercicio)){
         alert ("hey!! por fvor ingresa valores ")
@@ -21,6 +21,12 @@ function MenuEjercicios(nro_ejercicio){
             let oper = parseInt(prompt("Ingrese Operacion: \r\n 1. Suma \r\n 2. Resta \r\n 3. Multiplicacion \r\n 4. Division \r\n 5. Exponenciacion \r\n 6. Residuo"));
             console.log(oper);
             alert(ej2_calcularOperacion(oper));
+            break;
+        case 3:
+            const nombre = prompt("nombre del producto");
+            const precio = parseFloat(prompt("ingrese precio del producto"));
+            const cantidad = parseFloat(prompt("ingrese cantidad"));
+            alert(ejecico3(nombre,precio,cantidad));
             break;
         default:
             break;
@@ -88,5 +94,15 @@ function ej2_calcularOperacion(oper){
                 break;
         }
         return alert(mensaje);
+    }
+}
+
+function ejecico3(nombre, precio,cantidad){
+    if(isNaN(precio) || isNaN(cantidad)){
+        return"porfavor ingresa datos ";
+    } else {
+        let total=0;
+        total = (precio * cantidad) ;
+        return "El Producto es: " + nombre + " El Precio: " + precio + " Cantidad: " + cantidad + " Total del Pedido es: " + total;
     }
 }

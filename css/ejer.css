@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url('https://desarrolloweb.com/storage/tag_images/actual/3BpUDBsC3ofBy4torT1ZiUF6hdonqpRH841MeMDM.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box_button{
+    margin-top: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_button button{
+    padding: 1rem 2rem;
+    background-color: #FFF;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 2rem;
+}
+button:hover{
+    background-color: darkblue;
+    color: #FFF;
+    font-weight: 700;
+}
