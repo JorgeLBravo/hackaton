@@ -1,0 +1,272 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Alata', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* contenedor */
+.contenedor{
+  background-image: url(../src/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 7rem;
+}
+/* nav */
+.header{
+}
+
+.contenedor{
+
+}
+.nav_header{
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+  align-items: center;
+}
+.ul_nav{
+  display: flex;
+}
+@media only screen and (max-width: 921px){
+  .ul_nav{
+    display: none;
+  }
+}
+@media only screen and (max-width: 921px){
+  picture{
+    display: flex;
+    justify-content: center;
+  }
+}
+.ul_nav li{
+  list-style: none;
+  padding: 0 1rem;
+}
+.ul_nav li a{
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.header_text{
+  display: flex;
+  position: relative;
+  padding: 5rem 0;
+  margin-bottom: 5rem;
+}
+.box_text1{
+  display: flex;
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+  border: solid hsl(0, 0%, 100%);
+  margin-left: 15%;
+  padding: 1.5rem;
+  padding-right: 6rem;
+}
+.box_text1 p{
+  font-size: 5rem;
+}
+@media only screen and (max-width: 921px){
+  .box_text1 p{
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 885px){
+  .box_text1 p{
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 609px){
+  .box_text1 p{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .box_text1 p{
+    font-size: 1rem;
+  }
+}
+
+/* section1 */
+/* .box__sections{
+  border: solid yellow;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.section{
+  padding: 5rem 0;
+}
+.container-section{
+  display: flex;
+  position: relative;
+}
+.box_img2{
+  display: flex;
+}
+.box__text2{
+  display: flex;
+  align-items: flex-end;
+  margin-left: -10rem;
+  flex-wrap: wrap;
+}
+.box__text{
+  display: inline-block;
+  background-color: hsl(0, 0%, 100%);
+  width: 70%;
+}
+.box__text h2{
+  padding-top: 7rem;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+}
+.box__text p{
+  padding-left: 5rem;
+  padding-top: 3rem;
+  line-height: 25px;
+  color: hsl(0, 0%, 55%);
+} */
+.box__sections{
+  /* border: solid yellow; */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.section {
+  margin-top: 9rem;
+  margin-bottom: 10rem;
+}
+
+.container-section {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* justify-content: center; */
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+}
+
+@media only screen and (max-width: 921px){
+  .container-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.imagen img {
+  max-width: 100%;
+  height: 40rem;
+}
+
+@media only screen and (max-width: 810px){
+  .imagen{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 810px){
+  .imagen img{
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 45rem;
+  position: absolute;
+  background-color: white;
+  right: 0;
+  bottom: 0;
+  padding: 6rem 0 0 6rem;
+}
+
+@media only screen and (max-width: 921px){
+  .texto {
+    position: static;
+    text-align: center;
+  }
+}
+
+.texto h2 {
+  font-size: 3.5rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+  padding-right: 7rem;
+}
+.texto p{
+  padding-right: 7rem;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 921px){
+  .texto h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 609px){
+  .texto h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .texto h2 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 609px){
+  .texto p {
+    font-size: .8rem;
+  }
+}
+
+/* section2 */
+.container .row {
+margin: 0 auto;
+/* padding: 100px; */
+height: 980px;
+}
+.container h2 {
+margin: 300px 16px 8px 54.4px;
+width: 13rem;
+height: 5rem;
+color: rgb(255, 255, 255);
+font-family: fantasy;
+font-size: 24px;
+}
+.container .card {
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+-ms-border-radius: 0px;
+-o-border-radius: 0px;
+border: none;
+}
+.container img {
+margin-left: 20px;
+border: solid;
+width: 250px;
+height: 400px;
+opacity: 90%;
+justify-content: center;
+background-position: center;
+}
+@media (min-width: 768px) {
+.container_container {
+  justify-content: flex-end;
+}
+}
