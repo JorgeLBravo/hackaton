@@ -25,15 +25,18 @@ ul li {
     flex-wrap: wrap;
     padding: 6rem 15rem 6rem 15rem;
     color: white;
+    
 }
 
-.logo h1 {
-    font-size: 3rem;
+.logo img {
+    padding-bottom: 20px;
 }
 
 .nav {
     display: flex;
     align-items: center;
+
+    
 }
 
 .lista {
@@ -56,15 +59,13 @@ header{
     width: 100%;
   }
 
-  .cartel {
+  .immersive{
+    display: none;
     position: absolute;
-    z-index: 1;
-    color: white;
-    border: solid white;
-    bottom: 25%;
-    left: 10%;
-    width: 50rem;
+    margin-bottom: 3rem;
+    text-align: center;
   }
+
   
 /* Primera section */
 
