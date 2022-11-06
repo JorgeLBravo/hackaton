@@ -19,12 +19,6 @@
   padding-bottom: 7rem;
 }
 /* nav */
-.header{
-}
-
-.contenedor{
-
-}
 .nav_header{
   display: flex;
   justify-content: space-around;
