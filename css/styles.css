@@ -211,6 +211,7 @@
   .texto {
     display: flex;
     padding-left: 0;
+    padding-top: 2.5rem;
   }
 }
 
@@ -221,22 +222,6 @@
   padding-right: 7rem;
 }
 
-@media only screen and (max-width: 576px){
-  .texto h2 {
-    padding-right: 0;
-  }
-}
-
-.texto p{
-  padding-right: 7rem;
-  line-height: 25px;
-}
-
-@media only screen and (max-width: 576px){
-  .texto p {
-    padding-right: 0;
-  }
-}
 
 @media only screen and (max-width: 921px){
   .texto h2 {
@@ -250,15 +235,26 @@
   }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 576px){
   .texto h2 {
-    font-size: 1rem;
+    padding-right: 0;
   }
+}
+
+.texto p{
+  padding-right: 7rem;
+  line-height: 25px;
 }
 
 @media only screen and (max-width: 609px){
   .texto p {
     font-size: .8rem;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .texto p {
+    padding-right: 0;
   }
 }
 
