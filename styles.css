@@ -51,6 +51,17 @@ header h1{
 .ul_nav{
   display: flex;
 }
+@media only screen and (max-width: 921px){
+  .ul_nav{
+    display: none;
+  }
+}
+@media only screen and (max-width: 921px){
+  picture{
+    display: flex;
+    justify-content: center;
+  }
+}
 .ul_nav li{
   list-style: none;
   padding: 0 1rem;
@@ -80,8 +91,27 @@ header h1{
   font-size: 5rem;
 }
 
+@media only screen and (max-width: 921px){
+  .box_text1 p{
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 885px){
+  .box_text1 p{
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 609px){
+  .box_text1 p{
+    font-size: 2rem;
+  }
+}
 
-
+@media only screen and (max-width: 500px){
+  .box_text1 p{
+    font-size: 1rem;
+  }
+}
 
 .box__sections{
   margin-left: 10%;
@@ -91,6 +121,20 @@ header h1{
 .section {
   margin-top: 9rem;
   margin-bottom: 10rem;
+}
+
+@media only screen and (max-width: 810px){
+  .section {
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .section {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
 }
 
 .container-section {
@@ -103,9 +147,30 @@ header h1{
   position: relative;
 }
 
+@media only screen and (max-width: 921px){
+  .container-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .imagen img {
   max-width: 100%;
   height: 40rem;
+}
+
+@media only screen and (max-width: 810px){
+  .imagen{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 810px){
+  .imagen img{
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .texto {
@@ -120,40 +185,140 @@ header h1{
   padding: 6rem 0 0 6rem;
 }
 
+@media only screen and (max-width: 921px){
+  .texto {
+    position: static;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .texto {
+    display: flex;
+    padding-top: 2.5rem;
+  }
+}
+
 .texto h2 {
   font-size: 3.5rem;
   font-weight: 200;
   margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 921px){
+  .texto h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 609px){
+  .texto h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .texto h2 {
+    padding-right: 0;
+  }
+}
+
 .texto p{
   padding-right: 7rem;
   line-height: 25px;
 }
 
+@media only screen and (max-width: 921px){
+  .texto p {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 609px){
+  .texto p {
+    font-size: .8rem;
+  }
+}
+
 /* section2 */
 
+.container{
+  margin: 0 auto;
+  position: relative; 
+  border: solid;
 
+ 
   
-
-
+}
+.container .row {
+margin: 0 auto;
+width: 82.2%;
+height: 1210px;
+border: none;
+top: 0px;
+left: 10px;
+margin-top: 2px ;
+}
 .row h2{
-margin: 205px 16px 8px 54.4px;
+margin: 270px 16px 8px 54.4px;
 width: 13rem;
 height: 5rem;
 color: rgb(255, 255, 255);
 font-family: 'Josefin Sans', sans-serif;
 font-size: 24px;
+}
+.container .card {
+
+border: solid;
 
 }
 
+.container img {
+  margin-left: 15px;
+  border: solid;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-position: center;
+  border: none;
 
-
+}
 
 .row .card{ 
   border: none;
-  overflow: hidden;
-
 }
+
+@media only screen and (max-width: 767px){
+  #header {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  header .boton-t{
+    display: none;
+  }
+}
+
+.boton-container {
+  display: none;
+}
+
+@media only screen and (max-width: 767px){
+  .boton-container{
+    display: flex;
+  justify-content: center;
+  }
+  .boton {
+    margin-top: 3rem;
+  }
+}
+
+
 
 /* Footer */
 
@@ -211,7 +376,6 @@ font-size: 24px;
 .flex-footer2 h2{
   margin-bottom: 1.5rem;
 }
-
 
 @media (min-width: 768px) {
 .container_container {
